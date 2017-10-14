@@ -53,6 +53,28 @@ For programming the wearable's hardware, we're using the [Arduino](https://www.a
 
 [DB Browser for SQLite](http://sqlitebrowser.org) is used for this project for database visualization. In order to install it on your machine, simply download it [here](http://sqlitebrowser.org)
 
+### Django
+
+[Django](https://www.djangoproject.com) is a platform for building web applications using Python 3. To install it on your machine, follow the next steps:
+
+1. Run the following command in your terminal:
+
+        pip install Django==1.11.6
+
+2. To make sure Django runs properly, run the following set of commands in your terminal
+
+        python
+        >>> import django
+        >>> print(django.get_version())
+    
+    If it outputs 
+    
+        1.11.6
+    
+    Then you're all set with Django!
+    
+3. To exit python, press **control+D**
+    
 ### HTML/CSS/Javascript Editors
 
 There are many web development platoforms, all of which are fine to use. My suggestion would be the [Brackets](http://brackets.io), which is free, elegant, and easy to use.
