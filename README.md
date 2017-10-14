@@ -31,6 +31,33 @@ prefer. I suggest using Sublime Text 3, available to download for free [here](ht
          git push
          
 ## Instructions for Setting Up the Software
+### Anaconda
+
+[Anaconda](https://www.anaconda.com) is the software that provides a variety of tools for work with Python 3. The installation process is really straightforward: just click the download button [here](https://www.anaconda.com/download/#macos). **Please Make Sure You Download The 3.6 Version**. 
+
+To make sure you have the correct version (3.6) of python on your machine, run in your terminal:
+
+        python -V
+        
+It should yield something like the following:
+
+        Python 3.6.X :: Anaconda 4.4.0 (x86_64)
+        
+Where X is whatever the current version of Python 3.6 is. At this point you're all set with Anaconda!
+
+### Arduino
+
+For programming the wearable's hardware, we're using the [Arduino](https://www.arduino.cc) software. It lets you program hardware directly using the C language. To install Arduino software, [follow this link](https://www.arduino.cc/en/Main/Software).
+
+### DB Browser for SQLite
+
+[DB Browser for SQLite](http://sqlitebrowser.org) is used for this project for database visualization. In order to install it on your machine, simply download it [here](http://sqlitebrowser.org)
+
+### HTML/CSS/Javascript Editors
+
+There are many web development platoforms, all of which are fine to use. My suggestion would be the [Brackets](http://brackets.io), which is free, elegant, and easy to use.
+
+For a more comprehensive and professional web development experience, I recommend [Adobe Dreamweaver](http://www.adobe.com/products/dreamweaver.html). It is a paid application; however, it is worth it if you're looking for extra web development tools.
 
 ### SQLite 3
 
@@ -46,6 +73,14 @@ prefer. I suggest using Sublime Text 3, available to download for free [here](ht
         ./configure --prefix=/usr/local
         make
         make install
+    
+    if second command doesn't work, try instead:
+    
+        tar -xf sqlite-autoconf-3200100.tar.gz
+    if make install gives a permission error, run:
+    
+        sudo make install
+
 4. To make sure your SQLite 3 is installed normally, run the following command in your terminal:
 
         sqlite3
@@ -59,6 +94,6 @@ prefer. I suggest using Sublime Text 3, available to download for free [here](ht
         
 5. To exit SQLite, press **control+D**. You should be all set!
 
-### DB Browser for SQLite
+## Instructions for Running code
 
-[DB Browser for SQLite](http://sqlitebrowser.org) is used for this project for database visualization. In order to install it on your machine, simply download it [here](http://sqlitebrowser.org)
+Code development in progress: please check back soon! :P
