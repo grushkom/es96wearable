@@ -116,6 +116,19 @@ For a more comprehensive and professional web development experience, I recommen
         
 5. To exit SQLite, press **control+D**. You should be all set!
 
-## Instructions for Running code
+## Instructions for Running  the Code
 
-Code development in progress: please check back soon! :P
+### LocalHost
+
+At this point the localhost HTTP server should be possible to run. In order to do that, follow the instructions below:
+
+1. Run the following set of commands (within the es96wearable folder):
+
+        cd webgui
+        python manage.py runserver
+        
+2. You should be able to see the following line in your terminal:
+    
+        Starting development server at http://127.0.0.1:8000/
+
+Most likely, your machine will configure your HTTP server at http://127.0.0.1:8000/. If it does, simply click the link or copy and paste this address to your browser's address line. If not, please use the one that showed up in your Terminal.
