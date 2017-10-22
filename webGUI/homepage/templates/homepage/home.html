@@ -527,15 +527,6 @@
                     
                 });
 
-                // Play video only when visible
-                // https://stackoverflow.com/questions/21163756/html5-and-javascript-to-play-videos-only-when-visible
-                $('video').each(function(){
-                    if ($(this).is(":in-viewport")) {
-                        $(this)[0].play();
-                    } else {
-                        $(this)[0].pause();
-                    }
-                })
         
                 // Remove preloader (https://ihatetomatoes.net/create-custom-preloading-screen/)
                 $('body').addClass('loaded');
