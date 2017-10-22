@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'homepage',
-    'workspace',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
