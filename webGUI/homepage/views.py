@@ -1,7 +1,5 @@
 from django.shortcuts import render
+from django.shortcuts import render_to_response
 
 def index(request):
     return render(request, 'homepage/home.html')
-
-def signup(request):
-	return render(reuest, 'homepage/signup.html')
