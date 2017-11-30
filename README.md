@@ -1,3 +1,4 @@
+# ![](http://micro.seas.harvard.edu/images/SEASLogo_RGB.jpg) 
 # ES 96 Software Engineering for Outpatient Wearable
 # Team: Mikhail Grushko, Olga Romanova, Shelby Yuan & Ethan Wong
 
